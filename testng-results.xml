@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T17:50:06 UTC" name="MyTutorial-TestNG" finished-at="2025-11-27T17:50:07 UTC" duration-ms="1062">
+  <suite started-at="2025-11-27T17:54:05 UTC" name="MyTutorial-TestNG" finished-at="2025-11-27T17:54:06 UTC" duration-ms="1066">
     <groups>
     </groups>
-    <test started-at="2025-11-27T17:50:06 UTC" name="ZhamriMethods" finished-at="2025-11-27T17:50:07 UTC" duration-ms="1062">
+    <test started-at="2025-11-27T17:54:05 UTC" name="ZhamriMethods" finished-at="2025-11-27T17:54:06 UTC" duration-ms="1066">
       <class name="my.zhamri.testng.ParallelTest">
-        <test-method signature="testA()[pri:0, instance:my.zhamri.testng.ParallelTest@54c562f7]" started-at="2025-11-27T17:50:06 UTC" name="testA" finished-at="2025-11-27T17:50:07 UTC" duration-ms="1006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testA -->
-        <test-method signature="testB()[pri:0, instance:my.zhamri.testng.ParallelTest@54c562f7]" started-at="2025-11-27T17:50:06 UTC" name="testB" finished-at="2025-11-27T17:50:07 UTC" duration-ms="1004" status="PASS">
+        <test-method signature="testB()[pri:0, instance:my.zhamri.testng.ParallelTest@54c562f7]" started-at="2025-11-27T17:54:05 UTC" name="testB" finished-at="2025-11-27T17:54:06 UTC" duration-ms="1007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testB -->
+        <test-method signature="testA()[pri:0, instance:my.zhamri.testng.ParallelTest@54c562f7]" started-at="2025-11-27T17:54:05 UTC" name="testA" finished-at="2025-11-27T17:54:06 UTC" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
       </class> <!-- my.zhamri.testng.ParallelTest -->
     </test> <!-- ZhamriMethods -->
   </suite> <!-- MyTutorial-TestNG -->

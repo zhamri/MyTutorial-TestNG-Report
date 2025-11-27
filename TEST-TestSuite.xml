@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.923" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.89" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/temurin-21-jdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire/surefirebooter-20251127175005055_3.jar /home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire 2025-11-27T17-50-04_684-jvmRun1 surefire-20251127175005055_1tmp surefire_0-20251127175005055_2tmp"/>
+    <property name="sun.java.command" value="/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire/surefirebooter-20251127175404520_3.jar /home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire 2025-11-27T17-54-04_194-jvmRun1 surefire-20251127175404520_1tmp surefire_0-20251127175404520_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/test-classes:/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/classes:/home/runner/.m2/repository/org/testng/testng/7.11.0/testng-7.11.0.jar:/home/runner/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/runner/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/home/runner/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire/surefirebooter-20251127175005055_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/ZHAMRI-TestNG-Report/ZHAMRI-TestNG-Report/target/surefire/surefirebooter-20251127175404520_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+10-LTS"/>
     <property name="user.name" value="runner"/>
@@ -54,14 +54,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testB" classname="my.zhamri.testng.ParallelTest" time="1.006">
-    <system-out><![CDATA[Test B running on thread: TestNG-test-ZhamriMethods-2
-Test A running on thread: TestNG-test-ZhamriMethods-1
+  <testcase name="testA" classname="my.zhamri.testng.ParallelTest" time="1.007">
+    <system-out><![CDATA[Test A running on thread: TestNG-test-ZhamriMethods-1
+Test B running on thread: TestNG-test-ZhamriMethods-2
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testA" classname="my.zhamri.testng.ParallelTest" time="1.01"/>
+  <testcase name="testB" classname="my.zhamri.testng.ParallelTest" time="1.009"/>
 </testsuite>
